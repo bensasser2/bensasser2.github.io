@@ -1,0 +1,191 @@
+.yes { /* headers */
+  color:black;
+  font-family:"verdana";
+  font-size:300%;
+  text-align:center;
+}
+
+.yes2 { /* headers */
+  color:white;
+  font-family:"verdana";
+  font-size:300%;
+  text-align:center;
+}
+
+.yes3 { /* headers */
+  color:white;
+  font-family:"verdana";
+  font-size:275%;
+  text-align:center;
+}
+
+/*.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 70%;
+  margin:auto;
+}*/
+
+.darktheme { /* body */
+  /*margin:auto;*/
+  background-color:rgb(4,13,41);
+  background-image:url("images/pm_bg.png");
+}
+
+.para1 { /* paragraphs */
+  color:white;
+  font-family:helvetica;
+  font-size:100%;
+  margin-top:100px;
+  margin-left:180px;
+  margin-right:180px;
+  margin-bottom:100px;
+  text-align:center;
+}
+
+.para2 { /* paragraphs */
+  color:white;
+  font-family:helvetica;
+  font-size:100%;
+  margin-top:70px;
+  margin-left:120px;
+  margin-right:120px;
+  margin-bottom:70px;
+  text-align:center;
+}
+
+#darkcaptions {
+  color:white;
+  font-family:"verdana";
+  text-align:center;
+  background-color:rgba(50,50,51,0.6);
+  border:2px solid rgba(40,40,41,0.6);
+}
+
+#darkcaptions2 {
+  color:white;
+  font-family:"verdana";
+  text-align:center;
+  background-color:rgba(50,50,51,0.9);
+  border:2px solid rgba(40,40,41,0.9);
+}
+
+.darkdiv {
+  background-color:rgba(4,13,41,0.6);
+  border:2px solid rgba(23,32,60,0.6);
+  margin-top:30px;
+  margin-left:180px;
+  margin-right:180px;
+  margin-bottom:30px;
+}
+
+.overgalaxy { /* white overlay */
+  background-color:white;
+  color:black;
+  margin: 0;
+  padding: 0;
+  text-align:center;
+  font-family:"verdana";
+}
+
+/* The following is work on the horizontal navbar specifically. */
+
+/*ul*/.barnav {
+  list-style-type: none;
+  font-family:helvetica;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:rgba(4,10,30,0.5);
+  border:2px solid rgba(23,32,60,0.5);
+}
+
+li {
+  float: left;
+  border-right: 1px solid rgba(30,32,60,0.5);
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 18px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: /*lime*/rgb(23,32,60);
+  color: white;
+}
+
+li:last-child {
+  border-right: 1px solid /*gray*/rgba(30,32,60,0.5);
+}
+
+/* Horizontal navbar work ends here. /*
+
+/* The following is work on the vertical navbar specifically.
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: green;
+  width: 200px;
+  border: 1px solid gray;
+  position: fixed;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  background-color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+  text-align:center;
+  border-bottom: 1px solid gray;
+  font-family:sans-serif;
+  color:white;
+  float: left;
+}
+
+li a:last-child {
+  border-bottom: none;
+  float: left;
+}
+
+li a:hover {
+  background-color:lime;
+  color:white;
+}
+
+*/
+
+.active {
+  background-color:/*green*/rgb(59,58,85);
+  color:white;
+}
+
+/* Vertical navbar work ends here. */
+
+/*a:link {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decorationn: none;
+}
+
+a:active {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}*/
